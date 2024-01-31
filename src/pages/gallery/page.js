@@ -25,33 +25,33 @@ const Gallery = () => {
 
   return (
     <>
-    <div className="p-10 bg-gray-200 shadow-inner shadow-lg">
+      <div className="p-10 bg-gray-200 shadow-inner shadow-lg">
         <span
-            className="text-blue-400 text-4xl font-bold pl-8"
-            style={{ fontFamily: "Fredoka" }}
+          className="text-blue-400 text-4xl font-bold pl-8"
+          style={{ fontFamily: "Fredoka" }}
         >
-            ACM Student Chapter Gallery
+          ACM Student Chapter Gallery
         </span>
-    </div>
-    <div className="gallery">
-      <div className="masonry">
-        {images.map((item) => (
-          <div key={item.id} className="mItem">
-            <a onClick={() => handleImageClick(item.download_url)}>
-              <img src={item.download_url} alt={`Image ${item.id}`} />
-            </a>
-          </div>
-        ))}
       </div>
-
-      {selectedImage && (
-        <div className="imageViewer" onClick={handleCloseViewer}>
-          <div className="imageContainer">
-            <img src={selectedImage} alt="Selected Image" />
-          </div>
+      <div className="gallery">
+        <div className="masonry">
+          {images.map((item) => (
+            <div key={item.id} className="mItem">
+              <a onClick={() => handleImageClick(item.download_url)}>
+                <img src={item.download_url} alt={`${item.id}`} />
+              </a>
+            </div>
+          ))}
         </div>
-      )}
-    </div>
+
+        {selectedImage && (
+          <div className="imageViewer" onClick={handleCloseViewer}>
+            <div className="imageContainer">
+              <img src={selectedImage} alt="selected" />
+            </div>
+          </div>
+        )}
+      </div>
     </>
   );
 };
