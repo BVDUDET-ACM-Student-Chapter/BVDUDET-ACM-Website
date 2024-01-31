@@ -2,6 +2,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import "./page.scss";
+import { Helmet } from "react-helmet";
 
 const Gallery = () => {
   const [images, setImages] = useState([]);
@@ -25,6 +26,9 @@ const Gallery = () => {
 
   return (
     <>
+      <Helmet>
+        <title>ACM Gallery | Bharati Vidyapeeth ACM Student Chapter</title>
+      </Helmet>
       <div className="p-10 bg-gray-200 shadow-inner shadow-lg">
         <span
           className="text-blue-400 text-4xl font-bold pl-8"
