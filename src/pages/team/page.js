@@ -10,6 +10,7 @@ import OrganizingTeamJSON from "../../json/team-2023-24/OrganizingTeamProfiles.j
 import MarketingTeamJSON from "../../json/team-2023-24/MarkingTeamProfiles.json";
 import { useEffect, useState } from "react";
 import ProfileCard from "../../components/ProfileCard";
+import { Helmet } from "react-helmet";
 
 const Team = () => {
   const [Faculty, setFaculty] = useState([]);
@@ -31,6 +32,9 @@ const Team = () => {
   }, []);
   return (
     <>
+      <Helmet>
+        <title>ACM Team | Bharati Vidyapeeth ACM Student Chapter</title>
+      </Helmet>
       <div className="p-10 bg-gray-200 shadow-inner shadow-lg">
         <span
           className="text-blue-400 text-4xl font-bold pl-8"
@@ -142,7 +146,9 @@ const Team = () => {
           </Tabs>
         </TabPanel>
         <TabPanel>
-          <h1 className="text-6xl text-center font-bold text-blue-400 mt-20">Next Team coming soon...</h1>
+          <h1 className="text-6xl text-center font-bold text-blue-400 mt-20">
+            Next Team coming soon...
+          </h1>
         </TabPanel>
       </Tabs>
     </>

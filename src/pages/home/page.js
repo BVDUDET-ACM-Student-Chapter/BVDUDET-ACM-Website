@@ -1,6 +1,7 @@
 import { Typewriter } from "react-simple-typewriter";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDoubleDown } from "@fortawesome/free-solid-svg-icons";
+import { Helmet } from "react-helmet";
 
 export default function Home() {
   const handleScrollDown = () => {
@@ -12,6 +13,9 @@ export default function Home() {
 
   return (
     <>
+      <Helmet>
+        <title>Bharati Vidyapeeth ACM Student Chapter</title>
+      </Helmet>
       <div className="hero-section h-96 flex flex-col justify-center">
         <div className="container mx-auto text-center">
           <h1 className="text-5xl font-bold mb-4">

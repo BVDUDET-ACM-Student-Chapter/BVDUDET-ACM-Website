@@ -8,10 +8,14 @@ import {
   faTwitter as faXTwitter,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import { Helmet } from "react-helmet";
 
 const About = () => {
   return (
     <>
+      <Helmet>
+        <title>About Us | Bharati Vidyapeeth ACM Student Chapter</title>
+      </Helmet>
       <div className="p-10 bg-gray-200 shadow-inner shadow-lg">
         <span
           className="text-blue-400 text-4xl font-bold pl-8"
