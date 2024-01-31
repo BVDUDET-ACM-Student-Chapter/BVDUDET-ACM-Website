@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Sakshi Jadhav",
+        "role": "Chairperson",
+        "image": "/assets/ACM Team 2023-24/Sakshi Jadhav.jpg",
+        "linkedin": "https://www.linkedin.com/in/sakshi-jadhav-402165219/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Gaurav Desale",
+        "role": "Vice Chairperson",
+        "image": "/assets/ACM Team 2023-24/Gaurav Desale.jpg",
+        "linkedin": "https://www.linkedin.com/in/gaurav-desale-a7956225b/",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Varshita Nalluri",
+        "role": "ACM-W Chairperson",
+        "image": "/assets/ACM Team 2023-24/Varshita Nalluri.jpg",
+        "linkedin": "https://www.linkedin.com/in/varshitanalluri/",
+        "github": "https://github.com/varshitanalluri",
+        "portfolio": ""
+    },
+    {
+        "name": "Nishta Yadav",
+        "role": "ACM-W Vice Chairperson",
+        "image": "/assets/ACM Team 2023-24/Nishta Yadav.png",
+        "linkedin": "https://www.linkedin.com/in/nishtha-yadav-64b01224b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Fahim Khan",
+        "role": "Secretary",
+        "image": "/assets/ACM Team 2023-24/Fahim Khan.jpg",
+        "linkedin": "",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Shubham Sontakke",
+        "role": "Treasurer",
+        "image": "/assets/ACM Team 2023-24/Shubham Sontakke.png",
+        "linkedin": "https://www.linkedin.com/in/shubham-sontakke-3240b720a/",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Aviral Dev",
+        "role": "Vice Treasurer",
+        "image": "/assets/ACM Team 2023-24/Aviral Dev.png",
+        "linkedin": "www.linkedin.com/in/aviral-dev-649478288",
+        "github": "https://github.com/Aviraldev-20",
+        "portfolio": ""
+    }
+]

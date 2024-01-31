@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Southi Samantha",
+        "role": "Graphic Master",
+        "image": "/assets/ACM Team 2023-24/Southi Samantha.png",
+        "linkedin": "https://www.linkedin.com/in/souti-samanta-696807291/",
+        "github": "https://github.com/Souti717"
+    },
+    {
+        "name": "Saloni Wani",
+        "role": "Creativity Head",
+        "image": "/assets/ACM Team 2023-24/Saloni Wani.png",
+        "linkedin": "https://www.linkedin.com/in/saloni-wani-8a8165296",
+        "github": "https://github.com/2003saloni",
+        "portfolio": ""
+    },
+    {
+        "name": "Prajakta Bangale",
+        "role": "Graphic Lead",
+        "image": "/assets/ACM Team 2023-24/Prajakta Bangale.jpg",
+        "linkedin": "https://www.linkedin.com/in/prajakta-bangale-63b7b523a/",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Harsh Chavan",
+        "role": "Graphic Lead",
+        "image": "/assets/ACM Team 2023-24/Harsh Chavan.jpg",
+        "linkedin": "",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Audumbar Salvi",
+        "role": "Graphic Lead",
+        "image": "https://via.placeholder.com/350",
+        "linkedin": "",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Mitali Chaudhari",
+        "role": "Creativity Lead",
+        "image": "/assets/ACM Team 2023-24/Mitali Chaudhari.jpg",
+        "linkedin": "https://www.linkedin.com/in/mitali-chaudhari-ba9441255/",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Ritu Sharma",
+        "role": "Creativity Lead",
+        "image": "/assets/ACM Team 2023-24/Ritu Sharma.jpg",
+        "linkedin": "https://www.linkedin.com/in/ritu-sharma-b55a02287/",
+        "github": "",
+        "portfolio": ""
+    },
+    {
+        "name": "Mahesh Golam",
+        "role": "Creativity Lead",
+        "image": "https://i.imgur.com/2MCS60W.jpg",
+        "linkedin": "https://www.linkedin.com/in/mahesh-golam-734aa223b/",
+        "github": "",
+        "portfolio": ""
+    }
+]

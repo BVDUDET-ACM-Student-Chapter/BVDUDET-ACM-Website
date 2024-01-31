@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Kamran Khan",
+        "role": "Technical Head",
+        "image": "/assets/ACM Team 2023-24/Kamran Khan.jpg",
+        "linkedin": "https://www.linkedin.com/in/kamran1819g/",
+        "github": "https://github.com/kamran1819g",
+        "portfolio": "https://kamran1819g.vercel.app/"
+
+    },
+    {
+        "name": "Vashanavi Gothankar",
+        "role": "Technical Lead",
+        "image": "/assets/ACM Team 2023-24/Vashanavi Gothankar.jpg",
+        "linkedin": "https://www.linkedin.com/in/vaishanavi-gothankar-833902250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "https://github.com/Vaishu004",
+        "portfolio": ""
+    },
+    {
+        "name": "Shreyas Lawand",
+        "role": "Technical Lead",
+        "image": "/assets/ACM Team 2023-24/Shreyas Lawand.jpg",
+        "linkedin": "www.linkedin.com/in/shreyas-lawand-0a8927222",
+        "github": "https://github.com/ShreyasLawand",
+        "portfolio": ""
+    },
+    {
+        "name": "Prashant Dubey",
+        "role": "Technical Lead",
+        "image": "/assets/ACM Team 2023-24/Prashant Dubey.jpg",
+        "linkedin": "https://www.linkedin.com/in/prashant-dubey-446986257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "https://github.com/prashant8369",
+        "portfolio": ""
+    },
+    {
+        "name": "Varun Potty",
+        "role": "Technical Lead",
+        "image": "https://via.placeholder.com/350",
+        "linkedin": "https://www.linkedin.com/in/varun-jp-28934a231/",
+        "github": "",
+        "portfolio": ""
+    }
+]
