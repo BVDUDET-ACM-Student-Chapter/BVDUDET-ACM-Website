@@ -37,9 +37,9 @@ const Gallery = () => {
         <div className="masonry">
           {images.map((item) => (
             <div key={item.id} className="mItem">
-              <a onClick={() => handleImageClick(item.download_url)}>
+              <button onClick={() => handleImageClick(item.download_url)}>
                 <img src={item.download_url} alt={`${item.id}`} />
-              </a>
+              </button>
             </div>
           ))}
         </div>
