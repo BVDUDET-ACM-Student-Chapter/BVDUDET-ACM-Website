@@ -14,11 +14,15 @@ import Gallery from "./pages/gallery/page";
 import About from "./pages/about/page";
 import NotFound from "./pages/NotFound";
 
+import { firebaseConfig } from "./firebase";
+
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-import { app, analytics } from "./firebase";
 
 function App() {
+  const app = initializeApp(firebaseConfig);
+  getAnalytics(app);
+
   return (
     <>
       <Navbar />
