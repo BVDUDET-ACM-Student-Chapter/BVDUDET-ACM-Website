@@ -6,7 +6,7 @@ const Contribute = () => {
       <Helmet>
         <title>ACM Contribute | Bharati Vidyapeeth ACM Student Chapter</title>
       </Helmet>
-      <div className="p-10 bg-gray-200 shadow-inner shadow-lg">
+      <div className="p-10 shadow-inner shadow-lg">
         <span
           className="text-blue-400 text-4xl font-bold pl-8"
           style={{ fontFamily: "Fredoka" }}
