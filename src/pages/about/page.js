@@ -18,7 +18,7 @@ const About = () => {
       </Helmet>
       <div className="p-10 shadow-inner shadow-lg">
         <span
-          className="text-blue-400 text-4xl font-bold pl-8"
+          className="text-blue-400 text-2xl md:text-4xl font-bold md:pl-8"
           style={{ fontFamily: "Fredoka" }}
         >
           About Us - ACM BVUDET Student Chapter
@@ -27,12 +27,7 @@ const About = () => {
       <div className="container mx-auto">
         {/* About ACM Section */}
         <div className="flex flex-col lg:flex-row gap-8 my-10 mx-10">
-          <div
-            className="lg:w-1/2 bg-gray-900 rounded-2xl shadow-lg shadow-gray-600 flex justify-center items-center"
-            style={{
-              height: "450px",
-            }}
-          >
+          <div className="lg:w-1/2 bg-gray-900 rounded-2xl shadow-lg shadow-gray-600 flex justify-center items-center h-96">
             <img src={ACMLogo} alt="ACM Logo" height={500} width={500} />
           </div>
           <div className="lg:w-1/2 flex flex-col justify-center">
@@ -81,12 +76,7 @@ const About = () => {
               Learn More
             </a>
           </div>
-          <div
-            className="lg:w-1/2 bg-gray-900 shadow-lg shadow-gray-600  rounded-2xl flex justify-center items-center"
-            style={{
-              height: "450px",
-            }}
-          >
+          <div className="lg:w-1/2 bg-gray-900 shadow-lg shadow-gray-600  rounded-2xl flex justify-center items-center  h-96">
             <img
               src={BVDUDETACMLogo}
               alt="BVDUDET ACM Logo"

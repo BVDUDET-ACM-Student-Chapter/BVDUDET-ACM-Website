@@ -8,7 +8,7 @@ const Contribute = () => {
       </Helmet>
       <div className="p-10 shadow-inner shadow-lg">
         <span
-          className="text-blue-400 text-4xl font-bold pl-8"
+          className="text-blue-400 text-2xl md:text-4xl font-bold md:pl-8"
           style={{ fontFamily: "Fredoka" }}
         >
           Get Started - open source contribution

@@ -111,18 +111,18 @@ const Events = () => {
       </Helmet>
       <div className="p-10 shadow-inner shadow-lg">
         <span
-          className="text-blue-400 text-4xl font-bold pl-8"
+          className="text-blue-400 text-2xl md:text-4xl font-bold md:pl-8"
           style={{ fontFamily: "Fredoka" }}
         >
           Events
         </span>
       </div>
-      <div className="mx-20 my-5">
+      <div className="my-5">
         <div
           id="calendar"
           style={{
             height: "100%",
-            width: "100%",
+            width: "90%",
           }}
         ></div>
       </div>
