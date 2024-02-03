@@ -46,14 +46,13 @@
 .calendar-sidebar > span#sidebarToggler {
   position: absolute;
   width: 40px;
-  height: 40px;
   top: 0;
   right: 0;
+  border-radius: 0px 8px 8px 0px;
   transform: translate(100%, 0);
   background-color: var(--primary-color);
   padding: 10px 8px;
   cursor: pointer;
-  box-shadow: 5px 0 18px -3px var(--primary-color);
 }
 
 .calendar-sidebar > .calendar-year {
@@ -263,11 +262,14 @@ tr.calendar-body .calendar-day .day[disabled] {
   height: 40px;
   top: 0;
   right: 0;
+  border-radius: 8px 0px 0px 8px;
   background-color: var(--primary-color);
   padding: 10px;
   cursor: pointer;
-  box-shadow: 5px 0 18px -3px var(--primary-color);
   z-index: 1;
+}
+.event-list {
+  margin-top: 30px;
 }
 .event-list::after {
   content: "";
@@ -289,7 +291,6 @@ tr.calendar-body .calendar-day .day[disabled] {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 10px;
-  transition: all 0.3s ease;
   cursor: pointer;
   float: left;
 }
@@ -435,6 +436,7 @@ button.icon-button > span.bars {
   height: 4px;
   display: block;
   background-color: #fff;
+  border-radius: 22px;
 }
 button.icon-button > span.bars::before,
 button.icon-button > span.bars::after {
@@ -444,6 +446,7 @@ button.icon-button > span.bars::after {
   height: 4px;
   display: block;
   background-color: #fff;
+  border-radius: 22px;
 }
 button.icon-button > span.bars::before {
   top: -8px;
