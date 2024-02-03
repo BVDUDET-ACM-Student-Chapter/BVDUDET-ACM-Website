@@ -116,7 +116,7 @@ const About = () => {
               <div className="mt-3">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.799925472132!2d73.05603407489873!3d19.028535982166375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c38a077ce761%3A0x2133ad39bcf67618!2sBharati%20Vidyapeeth%20Deemed%20To%20be%20University%20Navi%20Mumbai!5e0!3m2!1sen!2sin!4v1697221472495!5m2!1sen!2sin"
-                  allowfullscreen=""
+                  allowFullScreen
                   loading="lazy"
                   title="BVDUDET Location"
                   className="w-full h-80"
@@ -132,9 +132,7 @@ const About = () => {
                   <a href="https://www.instagram.com/acm_bvdudet?igsh=aXJtaGY4c3U1ZHpu">
                     <FontAwesomeIcon
                       icon={faInstagram}
-                      height={60}
-                      width={60}
-                      className="hover:text-blue-500"
+                      className="text-5xl hover:text-blue-500"
                     />
                   </a>
                 </li>
@@ -142,9 +140,7 @@ const About = () => {
                   <a href="https://www.facebook.com/acm_bvdudet">
                     <FontAwesomeIcon
                       icon={faFacebook}
-                      height={60}
-                      width={60}
-                      className="hover:text-blue-500"
+                      className="text-5xl hover:text-blue-500"
                     />
                   </a>
                 </li>
@@ -152,9 +148,7 @@ const About = () => {
                   <a href="https://twitter.com/acm_bvdudet">
                     <FontAwesomeIcon
                       icon={faXTwitter}
-                      height={60}
-                      width={60}
-                      className="hover:text-blue-500"
+                      className="text-5xl hover:text-blue-500"
                     />
                   </a>
                 </li>
@@ -162,9 +156,7 @@ const About = () => {
                   <a href="https://www.linkedin.com/in/acm-bvdudet-364009294/">
                     <FontAwesomeIcon
                       icon={faLinkedin}
-                      height={60}
-                      width={60}
-                      className="hover:text-blue-500"
+                      className="text-5xl hover:text-blue-500"
                     />
                   </a>
                 </li>
@@ -188,8 +180,8 @@ const About = () => {
                       icon={faEnvelope}
                       height={20}
                       width={20}
-                      className="inline-block"
-                    />{" "}
+                      className="inline-block mx-1"
+                    />
                     FahimKhan@acm.org
                   </p>
                 </div>
@@ -205,8 +197,8 @@ const About = () => {
                       icon={faEnvelope}
                       height={20}
                       width={20}
-                      className="inline-block"
-                    />{" "}
+                      className="inline-block  mx-1"
+                    />
                     Kashish@acm.org
                   </p>
                 </div>
