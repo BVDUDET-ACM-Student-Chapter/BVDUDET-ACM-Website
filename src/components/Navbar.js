@@ -57,7 +57,7 @@ const Navbar = () => {
           </div>
           <Link to="/" className="btn btn-ghost text-center text-lg">
             <img src={BVDUDETACMLogo} alt="logo" className="w-10 h-10" />
-            <span>BVDUDET ACM Student Chapter</span>
+            <span>BVDUDET-ACM</span>
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">

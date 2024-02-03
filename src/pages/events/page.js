@@ -10,6 +10,12 @@ const Events = () => {
     if (typeof window !== "undefined") {
       $("#calendar").evoCalendar({
         language: "en",
+        sidebarToggler: true,
+        sidebarDisplayDefault: false,
+        titleFormat: "MM yyyy",
+        eventHeaderFormat: "MM d, yyyy",
+        eventListToggler: true,
+        eventDisplayDefault: true,
         todayHighlight: true,
         calendarEvents: [
           {
