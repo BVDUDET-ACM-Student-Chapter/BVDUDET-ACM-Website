@@ -12,6 +12,7 @@ import Contribute from "./pages/contribute/page";
 import Events from "./pages/events/page";
 import Gallery from "./pages/gallery/page";
 import About from "./pages/about/page";
+import JoinUs from "./pages/join-us/page";
 import NotFound from "./pages/NotFound";
 
 import { firebaseConfig } from "./firebase";
@@ -34,6 +35,7 @@ function App() {
         <Route path="events" element={<Events />} />
         <Route path="gallery" element={<Gallery />} />
         <Route path="about" element={<About />} />
+        <Route path="join-us" element={<JoinUs />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
