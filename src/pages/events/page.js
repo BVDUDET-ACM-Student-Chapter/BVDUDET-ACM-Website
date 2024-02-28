@@ -45,8 +45,8 @@ const Events = () => {
             badge: "Event", // Event badge (optional)
             name: "Cyber Security & Ethical Hacking", // Event name (required)
             description:
-              "The ACM Student Chapter at BVDU-DET will host a Cyber Security & Ethical Hacking workshop on 9th Feb 2024. Participants will learn about the latest trends in cyber security and ethical hacking, and how to protect themselves from cyber threats.", // Event description (optional)
-            date: ["February/09/2024"], // Event date (required)
+              "The ACM Student Chapter at BVDU-DET will host a Cyber Security & Ethical Hacking workshop on 16th Feb 2024. Participants will learn about the latest trends in cyber security and ethical hacking, and how to protect themselves from cyber threats.", // Event description (optional)
+            date: ["February/16/2024", "February/17/2024"], // Event date (required)
             type: "event", // Event type (required)
             everyYear: false, // Same event every year (optional)
             color: "#63d867", // Event custom color (optional)
