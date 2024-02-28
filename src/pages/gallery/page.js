@@ -29,7 +29,7 @@ const Gallery = () => {
       <Helmet>
         <title>ACM Gallery | Bharati Vidyapeeth ACM Student Chapter</title>
       </Helmet>
-      <div className="p-10 bg-gray-200 shadow-inner shadow-lg">
+      <div className="p-10 shadow-inner shadow-lg">
         <span
           className="text-blue-400 text-2xl md:text-4xl font-bold md:pl-8"
           style={{ fontFamily: "Fredoka" }}
