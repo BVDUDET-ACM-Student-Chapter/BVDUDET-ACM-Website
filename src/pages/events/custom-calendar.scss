@@ -16,10 +16,8 @@
 
 .evo-calendar {
   position: relative;
-  background-color: #fbfbfb;
   color: #5a5a5a;
   width: 100%;
-  box-shadow: 0 10px 50px -20px var(--primary-color);
   margin: 0 auto;
   overflow: hidden;
   z-index: 1;
@@ -120,7 +118,6 @@
   width: 100%;
   max-width: calc(100% - 600px);
   margin-left: 200px;
-  background-color: #fff;
   box-shadow: 5px 0 18px -3px rgba(0, 0, 0, 0.15);
   transition: all 0.3s ease;
   z-index: 1;
@@ -231,7 +228,6 @@ tr.calendar-body .calendar-day .day[disabled] {
   width: 400px;
   height: 100%;
   padding: 70px 30px 60px 30px;
-  background-color: #fbfbfb;
   transition: all 0.3s ease;
   overflow-y: auto;
   z-index: 0;
@@ -314,7 +310,6 @@ tr.calendar-body .calendar-day .day[disabled] {
   opacity: 0;
 }
 .event-container:hover {
-  background-color: #fff;
   box-shadow: 0 3px 12px -4px rgba(0, 0, 0, 0.65);
 }
 .event-container > .event-icon {

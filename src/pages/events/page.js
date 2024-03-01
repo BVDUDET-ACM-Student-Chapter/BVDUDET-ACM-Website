@@ -110,6 +110,36 @@ const Events = () => {
       });
     }
   }, []);
+
+  const pastEvents = [
+    {
+      id: "3",
+      type: "Workshop",
+      name: "Cyber Security & Ethical Hacking",
+      description:
+        "ACM Student Chapter Inauguration at BVDU-DET on 20th Oct 2023 celebrated formation, fostering community, academic excellence, and networking in computer science. ACM's global renown aligns with our academic ethos.",
+      date: ["20", "October", "2023"],
+      thumbnail: "https://placekitten.com/640/360",
+    },
+    {
+      id: "2",
+      type: "Event",
+      name: "UI/UX Design Competition",
+      description:
+        "ACM Student Chapter Inauguration at BVDU-DET on 20th Oct 2023 celebrated formation, fostering community, academic excellence, and networking in computer science. ACM's global renown aligns with our academic ethos.",
+      date: ["20", "October", "2023"],
+      thumbnail: "https://placekitten.com/640/360",
+    },
+    {
+      id: "1",
+      type: "Event",
+      name: "ACM Inauguration",
+      description:
+        "ACM Student Chapter Inauguration at BVDU-DET on 20th Oct 2023 celebrated formation, fostering community, academic excellence, and networking in computer science. ACM's global renown aligns with our academic ethos.",
+      date: ["20", "October", "2023"],
+      thumbnail: "https://placekitten.com/640/360",
+    },
+  ];
   return (
     <>
       <Helmet>
@@ -123,14 +153,44 @@ const Events = () => {
           Events
         </span>
       </div>
-      <div className="my-5">
+      <div className="mt-5 mb-20">
         <div
+          className="shadow-inner shadow-xl"
           id="calendar"
           style={{
             height: "100%",
             width: "90%",
           }}
         ></div>
+      </div>
+      <div className="container mx-auto my-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          {pastEvents.map((event, index) => (
+            <div key={index} className="shadow-inner shadow-lg mx-5">
+              <img
+                src={event.thumbnail}
+                alt={event.name}
+                className="w-full h-80 object-cover"
+              />
+              <div className="p-2 flex">
+                <div
+                  className="rounded-xl text-center text-white text-opacity-85 p-3 mx-5"
+                  style={{
+                    backgroundColor: "var(--primary-color)",
+                  }}
+                >
+                  <span className="text-3xl font-bold">{event.date[0]}</span>
+                  <p className="text-sm">{event.date[1]}</p>
+                  <p className="text-xs">{event.date[2]}</p>
+                </div>
+                <div>
+                  <span className="text-xl font-bold">{event.name}</span>
+                  <p className="text-sm">{event.description}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </>
   );
