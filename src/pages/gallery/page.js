@@ -9,7 +9,9 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   useEffect(() => {
-    fetch("https://picsum.photos/v2/list")
+    fetch(
+      "https://api.github.com/repos/BVDUDET-ACM-Student-Chapter/BVDUDET-ACM-Website/contents/src/assets/gallery"
+    )
       .then((res) => res.json())
       .then((data) => {
         setImages(data);
@@ -40,9 +42,9 @@ const Gallery = () => {
       <div className="gallery">
         <div className="masonry">
           {images.map((item) => (
-            <div key={item.id} className="mItem">
+            <div key={item.name} className="mItem">
               <button onClick={() => handleImageClick(item.download_url)}>
-                <img src={item.download_url} alt={`${item.id}`} />
+                <img src={item.download_url} alt={`${item.name}`} />
               </button>
             </div>
           ))}
